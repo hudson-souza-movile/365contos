@@ -1,0 +1,217 @@
+#run-search-button, #search-term {
+  position: absolute;
+  display: inline-block
+}
+
+.navbar-inverse {
+  background: url(../img/back-menu.jpg) center no-repeat #f5ce47;
+  background-size: 100%;
+  border-color: #f5ce47
+}
+
+.carousel-control.left, .carousel-control.right {
+  background-image: none;
+  filter: none;
+  background-repeat: none;
+  z-index: 9
+}
+
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+  margin-right: -15px;
+  margin-left: -15px;
+  text-align: center
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: #fff
+}
+
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+  color: #74385c;
+  background-color: #f8dd81
+}
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+  background-color: #f8dd81
+}
+
+.navbar-inverse .navbar-toggle {
+  border-color: #fff
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+  border-color: #f5ce47
+}
+
+.nav>li {
+  border-top: 1px solid #f8dd81
+}
+
+.carousel-control.right {
+  right: 0;
+  left: auto;
+  margin: 0 5px 0 0
+}
+
+.carousel-control.left {
+  margin: 0 0 0 5px
+}
+
+.glyphicon {
+  color: #353d48
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #fff
+}
+
+.fa-search {
+  font-size: 20px !important;
+  margin: 15px 20px 0;
+  float: right
+}
+
+.boton-link {
+  display: block;
+  width: 150px;
+  text-align: center;
+  text-decoration: none;
+  padding: 15px 0 15px 15px;
+  background-color: #f0141e;
+  color: #FFF;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  border: 1px solid transparent;
+  -webkit-appearance: none;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-position-x: 10%;
+  background-position-y: 50%
+}
+
+.col {
+  background-image: url(../img/col.png)
+}
+
+.save-favorite {
+  z-index: 13
+}
+
+.month-name {
+  text-transform: capitalize
+}
+
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700);
+
+@import url(https://raw.github.com/FortAwesome/Font-Awesome/master/docs/assets/css/font-awesome.min.css);
+
+#searchwrap {
+  display: inline-block;
+  position: relative;
+  height: 100px;
+  float: right;
+  padding: 0;
+  width: 40px
+}
+
+#search-term {
+  height: 20px;
+  font-size: 14px !important;
+  font-family: platform-regular, sans-serif;
+  border: #74385c;
+  outline: 0;
+  color: #74385c;
+  padding: 3px 60px 3px 3px;
+  width: 0;
+  top: 0;
+  right: 0;
+  background: 0 0;
+  z-index: 12;
+  transition: width .4s cubic-bezier(0, .795, 0, 1);
+  cursor: pointer
+}
+
+#search-term:focus {
+  width: 300px;
+  width: 200px;
+  z-index: 13;
+  cursor: text;
+  background-color: #FFF;
+  opacity: 1;
+  border: 1px solid #74385c;
+  border-radius: 5px;
+  /*padding-left: 10px*/
+}
+
+#run-search-button {
+  width: 40px;
+  height: 40px;
+  float: right;
+  background: url(../img/lupa.png) center center no-repeat #74385c;
+  background-size: 90%;
+  text-indent: -10000px;
+  border: 3px solid #fff;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  top: 0;
+  right: 0;
+  z-index: 11;
+  opacity: 1;
+  cursor: pointer;
+  transition: opacity .4s ease
+}
+
+#clearfix {
+  clear: both
+}
+
+#search-container {
+  z-index: 9999;
+  right: 10px;
+  position: absolute;
+  top: 22px;
+  width: 40px;
+}
+
+.bajarCapa, .posiFija {
+  z-index: 1 !important
+}
+
+#search-term::-webkit-input-placeholder {
+  color: #002325
+}
+
+#search-term:-moz-placeholder {
+  color: #002325;
+  opacity: 1
+}
+
+#search-term::-moz-placeholder {
+  color: #002325;
+  opacity: 1
+}
+
+#search-term:-ms-input-placeholder {
+  color: #002325
+}
+
+#search-term:placeholder-shown {
+  color: #002325
+}
+
+div.awesomplete>ul {
+  position: relative;
+  top: 45px
+}
+
+.posiFija {
+  position: fixed !important
+}
